@@ -173,50 +173,40 @@
 
                     <form action=""> 
                         <h5 class="mt-5">PELICULA</h5>
-                     <select class="form-select" aria-label="Default select example">
+                     <select class="form-select" id="Pelicula" aria-label="Default select example">
 
                         <option selected>Seleccionar pelicula</option>
-                        <option value="1">Batman</option>
-                        <option value="2">Belfast</option>
-                        <option value="3">El callejon</option>
-                        <option value="3">El canto de los pajaros</option>
-                        <option value="3">El justiciero</option>
-                        <option value="3">El libro del amor</option>
-                        <option value="3">El padrino</option>
-                        <option value="3">La casa Gucci</option>
-                        <option value="3">Princesa por accidente</option>
-                        <option value="3">Uncharted</option>
+                        <option value="Batman">Batman</option>
+                        <option value="Belfast">Belfast</option>
+                        <option value="El callejon">El callejon</option>
+                        <option value="El canto de los pajaros">El canto de los pajaros</option>
+                        <option value="El justiciero">El justiciero</option>
+                        <option value="El libro del amor">El libro del amor</option>
+                        <option value="El padrino">El padrino</option>
+                        <option value="La casa Gucci">La casa Gucci</option>
+                        <option value="Princesa por accidente">Princesa por accidente</option>
+                        <option value="Uncharted">Uncharted</option>
                      </select>
                      
-                        <div class="mb-3">
-                            <label class="form-label text-light">Cantidad</label>
-                            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                        <div class="mb-4">
+                            <label class="form-label text-dark mt-3"></label><h5>Cantidad</h5>
+                            <input type="number" class="form-control" id="Cantidad" aria-describedby="emailHelp">
                         </div>
                        
-                        <select class="form-select" aria-label="Default select example">
+                        <h5>ASIENTO</h5>
+                        <select class="form-select" aria-label="Default select example" id="Asiento">
 
-                            <option selected>Seleccionar asiento</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
+                            <option selected>Seleccionar</option>
+                            <option value="Preferencial">Preferencial= 12500$</option>
+                            <option value="General">General= 9000$</option>
+                       
                          </select>
-                        <div class="mb-3">
-                            <label class="form-label text-light">Correo</label>
-                            <input type="text" class="form-control" id="correo" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label text-light">Contraseña</label>
-                            <input type="password" class="form-control" id="contrasena" aria-describedby="emailHelp">
+                        <div class="mb-4">
+                            <label class="form-label text-dark mt-3"></label><h5>Correo</h5>
+                            <input type="text" class="form-control" id="Correo" aria-describedby="emailHelp">
                         </div>
                         
-                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        <button type="submit" class="btn btn-primary w-100" id="Boton">Comprar boletas</button>
                     </form>
                    
                 </div>
@@ -227,6 +217,7 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>"></script>
         <script src="js.js"></script>
+        <script src="boletas.js"></script>
     </footer>
 
 </body>
